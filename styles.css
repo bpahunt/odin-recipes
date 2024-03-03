@@ -1,0 +1,30 @@
+body {
+    color: azure;
+    font-family: "verdana", sans-serif;
+    background-color: rgba(27, 27, 27, 0.867);
+}
+
+img {
+    border: solid;
+    border-color: azure;
+    border-width: thick;
+}
+
+.heading {
+    text-decoration: underline;
+    font-weight: 1000;
+}
+
+.italicise {
+    font-style:italic;
+    font-weight: 100;
+    color: blanchedalmond
+}
+
+a:link {
+    color: azure;
+}
+
+a:visited{
+    color: aqua;
+}
