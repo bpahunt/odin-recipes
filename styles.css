@@ -4,10 +4,33 @@ body {
     background-color: rgba(27, 27, 27, 0.867);
 }
 
-img {
-    border: solid;
-    border-color: azure;
-    border-width: thick;
+.cardleft,
+.cardright,
+.cardbottom {
+    border: 2px solid white;
+    padding: 5px;
+    margin: 2px;
+    margin-bottom: 4px;
+    background-color: rgba(98, 97, 97, 0.867);
+}
+
+.cardleft {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.cardright {
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.cardbottom {
+    display: block;
+    width: 924px;
 }
 
 .heading {
